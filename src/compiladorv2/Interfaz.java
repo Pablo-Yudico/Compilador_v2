@@ -656,10 +656,11 @@ public class Interfaz extends javax.swing.JFrame {
         List<String> estado = matriz.get(est);
         for(String elemento : estado)
         {
+            if(estado.indexOf(elemento) >= columnas.indexOf("$"))
+                return val;
             if(!elemento.isBlank())
                 val+= columnas.get(estado.indexOf(elemento))+" ";
-            if(elemento.equals("$"))
-                return val;
+            
         }
         return val;
     }
