@@ -1,0 +1,4 @@
+int a , b ;
+float c , d ;
+char e,f;
+nom = ( 3 * a + c  / ) - ( 5 - 2 ) ;

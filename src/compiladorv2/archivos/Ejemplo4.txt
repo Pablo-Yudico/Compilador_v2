@@ -1,0 +1,4 @@
+int b , c ;
+float cha ;
+char sexo , vivo ;
+b = ( ( 3 + 5 ) * 10 ) + 20 - 4 * 8 ;
